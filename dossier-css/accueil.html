@@ -8,26 +8,34 @@
     <link rel="stylesheet" href="acccueil.css">
     <script src="accueil.js"></script>
     <link rel="stylesheet" href="file:///E:/brice/code%20app/work/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<header>
-    <img class="img1" src="CFPCanadienne.png" alt="logo">
-    <div class="menu">
-        <i class="fas fa-bars ouvrir"></i>
-        <i class="fas fa-times fermer "></i>
+    <script>function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }</script>
+    <script>
+        getElementById('dash')
+    </script>
 
-    </div>    
-        <ul class="u2">
-           <!-- <li><a href="#"></a></li>-->
-            
-            <li><a href="#"> Menu</a></li>
-            <li><a href="file:///C:/xampp/htdocs/php1/fiche%20de%20contact/dossier_contact/fiche%20de%20contact.html">contact</a></li>
-            <li><a href="#">Aide</a></li>
-            <li><a href="#">Plus</a></li>
-            
-        </ul>
-    
-</header>
+</head>
+    <header>
+        <img class="img1" src="CFPCanadienne.png" alt="logo">
+            <div class="topnav" id="myTopnav">
+                <a href="https://cfpcanadienne.com/"><i class="fas fa-steel"></i>Plus</a>              
+                <a href="file:///E:/brice/code%20app/work/monprojet/dossier-contact/fiche%20de%20contact.html#Dashbaord"><i class="fas fa-phone"></i>Contact</a>
+                <a href="file:///E:/brice/code%20app/work/monprojet/administatreur/administrateur.html"><i class="fas fa-home"></i>Administrateur</a>
+                <a href="#home" class="active"><i class="fas fa-home"></i>Home</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+          </div>
+    </header>
 
 
    
@@ -35,10 +43,10 @@
 
     <section class="sect1">
         <ul class="u1">
-            <li class="active"><a href="#">Secretariat bureautique (SBU)</a>
+            <li><a href="#">Secretariat bureautique (SBU)</a>
                 <div class="list">
                     <ul>
-                        <li><a href="#"> Environnement Informatique et interet</a></li>
+                        <li><a href="file:///E:/brice/code%20app/work/monprojet/surpport/Maitrise%20du%20clavier.html"> Environnement Informatique et interet</a></li>
                         <li><a href="#"> Metrise du clavier par le rapid typing</a></li>
                         <li><a href="#"> Organisation et gestion d'un Secretariat </a></li>
                         <li><a href="#"> Microsoft Word (traitement de texte)</a></li>
@@ -311,10 +319,11 @@
 
         <div class="suivre">
             <h1>Nous suivre</h1>
-                <ul>  <li class="NS"><i class="fa-brands fa-youtube"></i><a href="https://www.youtube.com/channel/UCmatsJSiYFFVPRdLYvDbFcQ"></a></li>
-                      <li class="NS"><i class="fa-brands fa-facebook"><a href="https://www.facebook.com/cfpcanadienn/"></a></i></li>
-                      <li class="NS"><i class="fa-brands fa-instagram"></i><a href="https://www.instagram.com/cfp_canadienne/"></a></li>
-                      <li class="NS"><i class="fa-brands fa-twitter"></i><a href="https://twitter.com/CCanadienne"></a></li>
+                <ul>  <li class="lien"><a href="https://www.youtube.com/channel/UCmatsJSiYFFVPRdLYvDbFcQ"><i class="fa-brands fa-youtube"></i></a></li>
+                      <li class="lien"><a href="https://www.facebook.com/cfpcanadienn/"><i class="fa-brands fa-facebook"></i></a></li>
+                      <li class="lien"><a href="https://www.instagram.com/cfp_canadienne/"><i class="fa-brands fa-instagram"></i></a></li>
+                      <li class="lien"><a href="https://twitter.com/CCanadienne"><i class="fa-brands fa-twitter"></i></a></li>
+                      
                       
                 </ul>
         </div>

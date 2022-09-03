@@ -7,6 +7,10 @@
     font-family: sans-serif;
     list-style: none;
 }
+body{
+    background: url(Backgrounddesign.jpg);
+    background-size: cover;
+}
 header{
     height: 70px;
     width: 100%;
@@ -55,50 +59,75 @@ img{
     display: none;
 }
 
+
+form{
+    background: rgba(0, 0, 0, 0.705);
+    color: #f2f2f2;
+    width: 500px;
+    text-align: center;
+    height: 300px;
+    margin-top: 10%;
+    margin-left: 30%;
+    border-radius: 5px;
+    padding: 60px;
+    
+
+}
+h3{
+    font-size: x-large;
+    border-bottom: solid 1px #ddd;
+    margin: 5px;
+}
+input{
+    
+    margin-top: 10px;
+    margin: 5px;
+    font-size: x-large;
+    border-radius: 5px;
+    min-width: 200px;
+    width: auto;
+    line-height: 10px;
+    border: 1px solid #ddd;
+    background: #ddd;
+    vertical-align: middle;
+
+}
+i{
+    color: rgb(243, 58, 58);
+}
+.input{
+    margin-top: 15px;
+    background: #ddd;
+    vertical-align: middle;
+}
+.btn a{
+    color: #ddd;
+    text-decoration: none;
+}
 .btn{
-  border: 1px solid rgb(243, 58, 58);
-  background: #ddd;
-  color: rgb(243, 58, 58);
+    margin-top: 20px;
+    font-size: x-large;
+    width: auto;
+    cursor: pointer;
+    background: rgba(243, 58, 58, 0.473);
+    height: 30px;
+    color: #ddd;
+    border: none;
+    border-radius: 5px;
+    
+}
+.btn:hover{
+    cursor: pointer;
+    background: rgb(243, 58, 58);  
+    transition: 0.3s;
 }
 
-.div1{
-  position: absolute;
-  margin-top: 70px;
-}
-.form-label{
-  margin-top: 2%;
-  font-weight: bold;
-  
-  border-radius: 5px;
-}
-.form-control{
-  border: 1.5px solid rgb(243, 58, 58);
-  
-}
 
-.div0{
 
-  width: 150px;
-  height: 350px;
-  box-shadow: 5px 0px 3px 1px rgba(0, 0, 0, 0.493);
-  margin-left: 0px;
-  display: grid;
-  text-align: left;
 
-}
-.div0 a{
-  text-decoration: none;
-  color: rgba(243, 58, 58, 0.863);
-  line-height: 5px;
-  margin-left: 10px;
-  margin-top: 10px;
-  
-  height: 20px;
-  margin: 5px;
-}
-.div0 a:hover{
-  color: rgb(243, 58, 58);
-}
+
+
+
 
 
 
@@ -132,7 +161,7 @@ img{
   
   
   @media screen and (max-width: 600px) {
-    .topnav.responsive {position: relative;}
+    .topnav.responsive {position: absolute;}
     .topnav.responsive a.icon {
       position: absolute;
       right: 0;
@@ -143,6 +172,7 @@ img{
       display: block;
       text-align: center;
       background: rgba(51, 51, 51, 0.384);
+      position: relative;
     }
     .topnav.responsive a :hover{
         
@@ -159,5 +189,9 @@ img{
         background: rgb(243, 58, 58);
         transition: 0.5;
 
+      }
+      form{
+        width: 100%;
+        margin-left: 0px;
       }
   }
